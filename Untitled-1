@@ -1,13 +1,25 @@
+$TTL 100
+@       IN      SOA     ns1.domena.pl.      hostmaster.domena.pl. (
+                                                2022012203
+                                                100
+                                                100
+                                                1209600
+                                                86400 )
 
-bonifacy.fun.	100	IN	A	54.38.52.84
+domena.pl.	100	IN	NS	ns1.domena.pl.
+domena.pl.	100	IN	NS	ns2.domena.pl.
+
 ftp	100	IN	A	54.38.52.84
 mail	100	IN	A	54.38.52.84
+domena.pl.	100	IN	A	54.38.52.84
+ns1.domena.pl.	100	IN	A	54.38.52.84
+ns2.domena.pl.	100	IN	A	54.38.52.84
 pop	100	IN	A	54.38.52.84
 smtp	100	IN	A	54.38.52.84
 www	100	IN	A	54.38.52.84
 
-bonifacy.fun.	100	IN	MX	10 mail
+domena.pl.	100	IN	MX	10 mail
 
 
 
-bonifacy.fun.	100	IN	TXT	"v=spf1 a mx ip4:54.38.52.84 ~all"
+domena.pl.	100	IN	TXT	"v=spf1 a mx ip4:54.38.52.84 ~all"
