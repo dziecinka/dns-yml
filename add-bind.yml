@@ -1,0 +1,1 @@
+zone "domena.pl" { type master; file "/etc/bind9/domena.pl.db"; };
